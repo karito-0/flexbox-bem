@@ -96,4 +96,66 @@
 }
 
 /* Componente 7: Testimonial */
-.testimonial
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+.testimonial__avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+.testimonial__text {
+  font-style: italic;
+}
+
+/* Componente 8: Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+.footer__col {
+  width: 30%;
+}
+.footer__col--about { font-weight: bold; }
+.footer__col--links { text-decoration: underline; }
+.footer__col--contact { font-style: italic; }
+
+/* Componente 9: Pricing */
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+.pricing__card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  flex: 1;
+}
+.pricing__card--basic { background-color: #f9f9f9; }
+.pricing__card--pro { background-color: #e0e0e0; }
+.pricing__card--premium { background-color: #d4af37; color: #fff; }
+
+/* Componente 10: Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column; /* Ítems en columna */
+  gap: 10px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  max-width: 200px;
+}
+.sidebar__item {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+.sidebar__item--home { font-weight: bold; }
+.sidebar__item--profile { font-style: italic; }
+.sidebar__item--settings { text-decoration: underline; }
