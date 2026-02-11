@@ -1,0 +1,99 @@
+/* Componente 1: Nav */
+.nav {
+  display: flex;
+  justify-content: flex-end; /* Menú alineado a la derecha */
+  background-color: #333;
+  padding: 10px;
+}
+.nav__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav__item {
+  color: #fff;
+  cursor: pointer;
+}
+.nav__item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Componente 2: Product Card */
+.product-card {
+  display: flex;
+  flex-direction: column; /* Elementos en columna */
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px 0;
+  max-width: 250px;
+}
+.product-card__img {
+  width: 100px;
+}
+.product-card__btn {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Componente 3: Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Ajusta al ancho disponible */
+  gap: 10px;
+  margin: 20px 0;
+}
+.gallery__item {
+  width: 30%;
+  border: 1px solid #ccc;
+}
+
+/* Componente 4: Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+.contact-form__input,
+.contact-form__textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.contact-form__btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Componente 5: Section Header */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.section-header__title {
+  font-size: 1.5em;
+}
+
+/* Componente 6: Task List */
+.task-list {
+  display: flex;
+  justify-content: space-around; /* Espaciado uniforme */
+  margin: 20px 0;
+}
+.task-list__item {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+/* Componente 7: Testimonial */
+.testimonial

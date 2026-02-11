@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Componentes Flexbox y BEM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Componente 1: Barra de navegación -->
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item nav__item--active">Inicio</li>
+      <li class="nav__item">Servicios</li>
+      <li class="nav__item">Contacto</li>
+    </ul>
+  </nav>
+
+  <!-- Componente 2: Tarjeta de producto -->
+  <section class="product-card">
+    <img src="producto.png" alt="Producto" class="product-card__img">
+    <p class="product-card__desc">Descripción breve del producto</p>
+    <button class="product-card__btn">Comprar</button>
+  </section>
+
+  <!-- Componente 3: Galería de imágenes -->
+  <section class="gallery">
+    <img src="img1.png" alt="Imagen 1" class="gallery__item">
+    <img src="img2.png" alt="Imagen 2" class="gallery__item">
+    <img src="img3.png" alt="Imagen 3" class="gallery__item">
+  </section>
+
+  <!-- Componente 4: Formulario de contacto -->
+  <form class="contact-form">
+    <input type="text" placeholder="Nombre" class="contact-form__input">
+    <input type="email" placeholder="Correo" class="contact-form__input">
+    <textarea placeholder="Mensaje" class="contact-form__textarea"></textarea>
+    <button class="contact-form__btn">Enviar</button>
+  </form>
+
+  <!-- Componente 5: Encabezado de sección -->
+  <header class="section-header">
+    <span class="section-header__icon">⭐</span>
+    <h2 class="section-header__title">Título de sección</h2>
+  </header>
+
+  <!-- Componente 6: Lista de tareas -->
+  <ul class="task-list">
+    <li class="task-list__item">Tarea 1</li>
+    <li class="task-list__item">Tarea 2</li>
+    <li class="task-list__item">Tarea 3</li>
+  </ul>
+
+  <!-- Componente 7: Testimonial -->
+  <section class="testimonial">
+    <img src="servicio.png" alt="Avatar" class="testimonial__avatar">
+    <p class="testimonial__text">Excelente servicio.</p>
+  </section>
+
+  <!-- Componente 8: Footer con tres columnas -->
+  <footer class="footer">
+    <div class="footer__col footer__col--about">Columna 1</div>
+    <div class="footer__col footer__col--links">Columna 2</div>
+    <div class="footer__col footer__col--contact">Columna 3</div>
+  </footer>
+
+  <!-- Componente 9: Sección de precios -->
+  <section class="pricing">
+    <div class="pricing__card pricing__card--basic">Plan Básico</div>
+    <div class="pricing__card pricing__card--pro">Plan Pro</div>
+    <div class="pricing__card pricing__card--premium">Plan Premium</div>
+  </section>
+
+  <!-- Componente 10: Sidebar de navegación -->
+  <aside class="sidebar">
+    <a href="#" class="sidebar__item sidebar__item--home">Inicio</a>
+    <a href="#" class="sidebar__item sidebar__item--profile">Perfil</a>
+    <a href="#" class="sidebar__item sidebar__item--settings">Configuración</a>
+  </aside>
+
+</body>
+</html>
